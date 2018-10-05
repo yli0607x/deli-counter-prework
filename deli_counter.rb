@@ -21,7 +21,7 @@ def line(katz_deli)
   current_line = "The line is currently:"
   katz_deli.each.with_index do |name, i|
   current_line << " #{i+1}. #{name}"
-  puts current_line
 end
+  puts current_line
 end
 end
