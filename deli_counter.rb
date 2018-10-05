@@ -20,7 +20,7 @@ def line(katz_deli)
   else
   current_line =[]
   katz_deli.each.with_index do |name, i|
-  current_line.push(" #{i+1}. #{name})")
+  current_line.push(" #{i+1}. #{name}")
   puts "The line is currently: #{current_line}"
 end
 end
